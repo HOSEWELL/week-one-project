@@ -1,0 +1,14 @@
+label {
+    font-style: oblique;
+    font-weight: 700;
+
+}
+input {
+    padding: 10px;
+    width: 80%;
+}
+div {
+    background-color: rgb(207, 131, 16);
+    width: 30%;
+    padding: 15px;
+}

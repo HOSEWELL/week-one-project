@@ -1,14 +1,29 @@
 label {
     font-style: oblique;
     font-weight: 700;
-
+    color: rgb(18, 86, 175);
 }
 input {
-    padding: 10px;
-    width: 80%;
+    padding: 30px;
+    width: 90%;
+    border-radius: 5px;
 }
 div {
-    background-color: rgb(207, 131, 16);
-    width: 30%;
-    padding: 15px;
+    width: 40%;
+    padding: 5px;
+}
+div{
+    background-image: linear-gradient(to left,rgb(219, 194, 47),rgb(35, 202, 58));
+    border-radius: 10px;
+    padding: 55px 60px;
+}
+.title{
+    color: brown;
+}
+body{
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+
 }

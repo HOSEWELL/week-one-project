@@ -1,10 +1,16 @@
 body {
-    background-color: blanchedalmond;
-    padding: 15px;
+   background-image: linear-gradient(to left,rgb(219, 194, 47),rgb(35, 202, 58));
     font-style: italic;
-    width: 35%;
+    padding: 30px;
 }
 img {
-    width: 20%;
+    width: 10%;
     padding: 15px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+a{
+    text-decoration: none;
 }

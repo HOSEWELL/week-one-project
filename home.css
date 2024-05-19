@@ -1,0 +1,40 @@
+img {
+    padding: 5px 75px;
+}
+.nav{
+    display: flex;
+    grid-template-columns: 50% 50%;
+    float: right;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to left,rgb(219, 194, 47),rgb(35, 202, 58));
+     font-style: italic;
+     padding: 50px;
+}
+label{
+    color: brown;
+    font-weight: bold;
+    font-size: larger;
+}
+input{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    float: right;
+    grid-template-columns:50% 50%;
+}
+.content{
+    display: flex;
+    float: right;
+    grid-template-columns:50% 50%;
+}
+input{
+    font-weight: 600;
+    padding: 20px;
+}
+

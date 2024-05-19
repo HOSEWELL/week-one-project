@@ -23,9 +23,11 @@ div{
 body{
     padding: 50px;
 }
+.nav{
+    display: flex;
+    grid-template-columns: 50% 50%;
+    float: right;
+}
 a{
     text-decoration: none;
-    display: grid;
-    grid-template-columns: right;
-
 }

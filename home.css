@@ -1,12 +1,15 @@
 img {
     padding: 5px 75px;
+    width: 40%;
 }
 .nav{
     display: flex;
     grid-template-columns: 50% 50%;
-    float: right;
     text-decoration: none;
+    justify-content: end;
+    padding-right: 40px;
 }
+
 body{
     background-image: linear-gradient(to left,rgb(219, 194, 47),rgb(35, 202, 58));
      font-style: italic;
@@ -32,9 +35,21 @@ a{
     display: flex;
     float: right;
     grid-template-columns:50% 50%;
+    padding: 20px;
 }
 input{
     font-weight: 600;
     padding: 20px;
+}
+.main{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap: 30px;
+
+}
+nav li{
+    list-style: none;
+    justify-content: space-around;
+    padding-right: 90px;
 }
 
